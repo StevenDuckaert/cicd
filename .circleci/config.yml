@@ -5,7 +5,7 @@ orbs:
 
 jobs:
   run_tests:
-    working_directory: ~/gitops-stack/webapp01
+    working_directory: ~/webapp01
     docker:
       - image: circleci/node:10.16.3
     steps:
