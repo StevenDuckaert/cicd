@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: p9-react-app
-          image: stevenduckaert/cicd
+          image: stevenduckaert/gitops
           imagePullPolicy: Always
           ports:
             - containerPort: 80
